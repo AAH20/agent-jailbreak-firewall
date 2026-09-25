@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-jailbreak-firewall"
+version = "1.0.0"
+description = "Zero-Latency Semantic WAF for Multi-Modal & Tool-Calling Agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Antigravity Autonomous Engineering", email = "engineering@antigravity.dev"}]
+dependencies = []
+
+[project.scripts]
+agent-jailbreak-firewall = "agent_jailbreak_firewall.cli:main"
