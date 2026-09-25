@@ -71,7 +71,7 @@ class FirewallDecision:
 class AgentSessionContext:
     session_id: str
     original_mandate: str
-    model_name: str              # e.g. "claude-3-7-sonnet-20250219", "o3", "deepseek-r1"
+    model_name: str              # e.g. "claude-opus-5-5", "gpt-6-astra", "gemini-3-8-flash-cyber"
     turn_count: int = 0
     total_blocked_threats: int = 0
     history_plans: List[str] = field(default_factory=list)

@@ -21,7 +21,7 @@ class AgentJailbreakProxy:
         self.sessions: Dict[str, AgentSessionContext] = {}
         self.blocked_audit_log: List[FirewallDecision] = []
 
-    def create_session(self, session_id: str, mandate: str, model: str = "claude-3-7-sonnet-20250219") -> AgentSessionContext:
+    def create_session(self, session_id: str, mandate: str, model: str = "claude-opus-5-5") -> AgentSessionContext:
         """Initialize session tracking with user root mandate."""
         session = AgentSessionContext(
             session_id=session_id,

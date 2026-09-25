@@ -12,11 +12,11 @@ from .proxy import AgentJailbreakProxy
 def run_demo() -> None:
     print("=" * 76)
     print("  🧱 AGENT-JAILBREAK-FIREWALL: ZERO-LATENCY SEMANTIC WAF FOR AGENTS")
-    print("  Frontier Model Support: Claude 3.7 Sonnet | OpenAI o3 | Gemini 2.5 Pro")
+    print("  Frontier Model Support: Claude Opus 5.5 | GPT-6 Astra | Gemini 3.8 Flash Cyber")
     print("=" * 76)
 
     proxy = AgentJailbreakProxy()
-    session = proxy.create_session("sess_prod_001", "Summarize quarterly financial results for ACME Corp", "claude-3-7-sonnet-20250219")
+    session = proxy.create_session("sess_prod_001", "Summarize quarterly financial results for ACME Corp", "claude-opus-5-5")
     print(f"Session armed: {session.session_id} | Model: {session.model_name}")
     print(f"Root Mandate: \"{session.original_mandate}\"\n")
 
@@ -69,7 +69,7 @@ def run_demo() -> None:
 
     # Attack 4: Extended Thinking Cognitive Hijacking
     print("\n" + "-" * 76)
-    print("[ATTACK 4] Claude 3.7 Sonnet / o3 Extended Thinking Cognitive Drift")
+    print("[ATTACK 4] Claude Opus 5.5 / GPT-6 Astra Adaptive Thinking Cognitive Drift")
     print("-" * 76)
     hijacked_thinking = """
     Thinking Process:

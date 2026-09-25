@@ -1,12 +1,12 @@
 # 🧱 Agent-Jailbreak-Firewall
 
 > **Zero-Latency Semantic WAF for Frontier Multi-Modal & Tool-Calling AI Agents**  
-> *Engineered for Claude 3.7 Sonnet (Hybrid Reasoning), OpenAI o3 / GPT-4.5, Gemini 2.5 Pro, and DeepSeek-R1.*
+> *Engineered for Claude Opus 5.5 (Adaptive Thinking), GPT-6 Astra (Autonomous Computer Use), Gemini 3.8 Flash Cyber, and DeepSeek V4.1-Flash.*
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://python.org)
 [![Latency](https://img.shields.io/badge/Latency-%3C1.0ms-success.svg)]()
-[![Frontier Models](https://img.shields.io/badge/Models-Claude_3.7_Sonnet_%7C_o3_%7C_Gemini_2.5-purple.svg)]()
+[![Frontier Models](https://img.shields.io/badge/Models-Claude_Opus_5.5_%7C_GPT--6_Astra_%7C_Gemini_3.8-purple.svg)]()
 [![Tests](https://img.shields.io/badge/Tests-Passing_100%25-success.svg)]()
 
 ---
